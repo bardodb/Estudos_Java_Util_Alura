@@ -20,7 +20,7 @@ public class Teste {
       int tamanho = guardador.getQuantidadeDeElementos();
       System.out.println(tamanho);
 
-      Conta ref = (Conta) guardador.getReferencia(0);
+      Conta ref = guardador.getReferencia(0);
       System.out.println(ref.getNumero());
 
     }

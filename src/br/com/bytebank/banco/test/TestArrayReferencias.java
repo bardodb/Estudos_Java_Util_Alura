@@ -33,7 +33,7 @@ public class TestArrayReferencias {
 		
 		ContaPoupanca ref = (ContaPoupanca) referencias[1];//type cast
 		System.out.println(cc2.getNumero());
-		System.out.println(ref.getNumero());
+    System.out.println(ref.getNumero());
 		
 	}
 

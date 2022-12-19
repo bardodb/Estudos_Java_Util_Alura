@@ -19,7 +19,7 @@ public class GuardadordeReferencias {
     return this.posicaoLivre;
   }
 
-  public Object getReferencia(int i) {
+  public Conta getReferencia(int i) {
     return this.referencias[i];
   }
 }
