@@ -1,0 +1,8 @@
+Tem 3 tipos de List:
+java.util.ArrayList
+java.util.LinkedList
+java.util.Vector = threadsafe, único que pode ser manipulado por várias pilhas/listas
+
+
+
+Java nasceu com o java.util.Vector, o Vector usa de Array também, assim como o ArrayList
