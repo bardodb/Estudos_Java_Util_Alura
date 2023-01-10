@@ -7,18 +7,20 @@ import br.com.bytebank.banco.modelo.GuardadordeReferencias;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Vector;
 
 public class TesteArrayList {
 
     public static void main(String[] args) {
 
 //generics
+      //List<Conta> lista = new Vector<>();//
+      //List<Conta> lista = new LinkedList<>();
       List<Conta> lista = new ArrayList<>();
-
       Conta cc = new ContaCorrente(22, 11);
       lista.add(cc);
 
-      Conta cc2 = new ContaCorrente(22, 11);
+      Conta cc2 = new ContaCorrente(22, 22);
       lista.add(cc2);
 
       System.out.println("Tamanho: " + lista.size());

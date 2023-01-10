@@ -1,8 +1,28 @@
 Tem 3 tipos de List:
-java.util.ArrayList
-java.util.LinkedList
-java.util.Vector = threadsafe, único que pode ser manipulado por várias pilhas/listas
+java.util.ArrayList  Sempre que eu precisar aumentar um array em 50%,
+usar esse (de 10, vai pra 15)
+
+
+java.util.LinkedList Este tipo de lista possui melhor performance nos métodos add e remove,
+do que os métodos add e remove do ArrayList,
+em compensação seus métodos get e set possuem uma performance pior do que os do ArrayList
+
+
+java.util.Vector = ThreadSafe = Vector, tá tudo tranquilo.
+Ao invés de aumentar 50% no limite, o limite de array duplica
 
 
 
-Java nasceu com o java.util.Vector, o Vector usa de Array também, assim como o ArrayList
+Java nasceu com o java.util.Vector
+
+------------------------------------------------------ // ------------------------------------------------
+Se for trabalhar com collections, não vai ter metodo de remover pelo indice ou pegar elementos pelo indice
+
+------------------------------------------------------ // ------------------------------------------------
+Autoboxing = de int (tipo primitivo) para java.lang.Integer (Wrapper)
+
+Unboxing = de java.lang.Integer (Wrapper) para int (tipo Primitivo)
+
+
+
+
