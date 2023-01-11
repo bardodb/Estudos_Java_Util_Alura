@@ -6,7 +6,7 @@ package br.com.bytebank.banco.test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class teste {
+public class TesteOutrosWrappers {
   public static void main(String[]args){
 
     int[] idades = new int[5];
