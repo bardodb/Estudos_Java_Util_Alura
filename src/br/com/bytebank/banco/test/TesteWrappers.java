@@ -18,7 +18,7 @@ public class TesteWrappers {
 
     //Number refNumero = Integer.valueOf(29);
 
-    Number refNumero = Float.valueOf(29.0f);
+    Number refNumero = Float.valueOf(29.0f);//preciso colocar f no final pra falar que é um float ltieral
 
 
     List<Number> lista = new ArrayList<>(); //number engloba todos java.lang.*      
