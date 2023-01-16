@@ -5,6 +5,7 @@ import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.ContaPoupanca;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class TesteLambda {
@@ -27,5 +28,14 @@ public class TesteLambda {
     lista.add(cc3);
     lista.add(cc4);
 
+
+  }
+}
+
+class nsei implements Comparator<Conta>{
+
+  @Override
+  public int compare(Conta o1, Conta o2) {
+    return 0;
   }
 }
