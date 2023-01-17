@@ -28,14 +28,42 @@ public class TesteLambda {
     lista.add(cc3);
     lista.add(cc4);
 
+    for (Conta conta : lista ) {
+      System.out.println(conta);
+    }
 
+    NumeroComparator comparator = new NumeroComparator();
+    lista.sort(comparator);
+
+
+    System.out.println("-------------------");
+
+
+    for (Conta conta : lista ) {
+      System.out.println(conta);
+    }
   }
 }
 
-class nsei implements Comparator<Conta>{
-
+class NumeroComparator implements Comparator<Conta> {
   @Override
   public int compare(Conta o1, Conta o2) {
-    return 0;
+
+    if (o1.getNumero() < o2.getNumero()) {
+
+      return -341;
+
+    }
+
+    {
+      if (o1.getNumero() < o2.getNumero()) {
+
+        return 1;
+
+      }
+
+
+      return 0;
+    }
   }
 }
