@@ -1,15 +1,12 @@
 package br.com.bytebank.banco.modelo;
 
-
-import jdk.jfr.Period;
-
 /**
  * Classe representa a moldura de uma conta
  * 
- * @author Nico Steppat
+ * @author definitivamente alguém
  *
  */
-public abstract class Conta extends Object {
+public abstract class Conta extends Object implements Comparable<Conta> {
 
     protected double saldo;
     private int agencia;
@@ -109,9 +106,16 @@ public abstract class Conta extends Object {
         return true;
     }
 
-    @Override
+
+  @Override
+  public int compareTo(Conta outro) {
+
+    return Double.compare(this.saldo, outro.saldo);
+  }
+
+  @Override
 	public String toString() {
-		return "Numero: " + this.numero + ", Agencia: " + this.agencia;
+		return "Numero: " + this.numero + ", Agencia: " + this.agencia + " Saldo: " + this.saldo;
 	}
 
 }

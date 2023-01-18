@@ -4,8 +4,8 @@ package br.com.bytebank.banco.modelo;
 /**
  * Classe que representa um cliente no Bytebank.
  *
- * @author Nico Steppat
- * @version 0.1
+ * @author definitivamente alguém
+
  */
 public class Cliente  {
 
