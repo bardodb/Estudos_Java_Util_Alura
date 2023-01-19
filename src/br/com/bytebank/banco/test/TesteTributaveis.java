@@ -4,7 +4,7 @@ import br.com.bytebank.banco.modelo.CalculadorDeImposto;
 import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.SeguroDeVida;
 
-//classe Teste
+//classe TesteClasseAnonima
 public class TesteTributaveis {
 
 	public static void main(String[] args) {
