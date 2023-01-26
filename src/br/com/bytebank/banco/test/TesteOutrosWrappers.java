@@ -1,8 +1,5 @@
 package br.com.bytebank.banco.test;
 
-
-
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,8 +17,8 @@ public class TesteOutrosWrappers {
 
     System.out.println(Integer.MAX_VALUE);
     System.out.println(Integer.MIN_VALUE);
-    System.out.println(Integer.SIZE);//ver o tamanho que ocupa em bytes
-    System.out.println(Integer.BYTES); //ver quantos bytes
+    System.out.println(Integer.SIZE);//ver o tamanho que ocupa em ‘bytes’
+    System.out.println(Integer.BYTES); //ver quantos 'bytes'
 
 
 
